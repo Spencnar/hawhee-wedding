@@ -43,28 +43,28 @@ export default function FAQPage() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="relative flex flex-col items-center justify-center min-h-[40vh] py-16">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="bg-gray-300/90 backdrop-blur-sm rounded-2xl p-8 md:p-12 border-2 border-[#8E4585] shadow-xl">
+      <section className="relative flex flex-col items-center justify-center min-h-[40vh] py-8 md:py-16">
+        <div className="max-w-4xl mx-auto px-4 w-full">
+          <div className="bg-gray-300/90 backdrop-blur-sm rounded-2xl p-6 md:p-8 lg:p-12 border-2 border-[#8E4585] shadow-xl">
             <div className="w-full flex flex-col items-center justify-center">
               {/* Top SVG Border */}
               <div className="w-full flex justify-center">
-                <svg width="400" height="40" viewBox="0 0 400 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-full max-w-[400px] h-10" viewBox="0 0 400 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M10 30 Q 50 10, 100 30 T 200 30 T 300 30 T 390 30" stroke="#800020" strokeWidth="2" fill="none"/>
                   <circle cx="50" cy="20" r="6" fill="#b06ea5"/>
                   <circle cx="350" cy="20" r="6" fill="#b06ea5"/>
                   <ellipse cx="200" cy="15" rx="12" ry="8" fill="#c593bc"/>
                 </svg>
               </div>
-              <div className="text-center py-8 px-4">
-                <h1 className="text-4xl md:text-6xl font-serif text-burgundy mb-4 tracking-wide">
+              <div className="text-center py-6 md:py-8 px-4">
+                <h1 className="text-3xl sm:text-4xl md:text-6xl font-serif text-burgundy mb-4 tracking-wide">
                   FAQ
                 </h1>
-                <p className="text-xl md:text-2xl text-plum-900 font-semibold">Frequently Asked Questions</p>
+                <p className="text-lg sm:text-xl md:text-2xl text-plum-900 font-semibold">Frequently Asked Questions</p>
               </div>
               {/* Bottom SVG Border */}
               <div className="w-full flex justify-center">
-                <svg width="400" height="40" viewBox="0 0 400 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-full max-w-[400px] h-10" viewBox="0 0 400 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M10 10 Q 50 30, 100 10 T 200 10 T 300 10 T 390 10" stroke="#800020" strokeWidth="2" fill="none"/>
                   <circle cx="100" cy="20" r="6" fill="#b06ea5"/>
                   <circle cx="300" cy="20" r="6" fill="#b06ea5"/>
